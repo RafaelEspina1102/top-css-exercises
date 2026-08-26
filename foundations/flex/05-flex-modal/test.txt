@@ -10,7 +10,7 @@ body {
   margin: 0;
   background: #aaa;
   color: #333;
-  /* I'll give you this one for free */
+  /* I'll give you this one for free lol */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -21,7 +21,7 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0, 0, 0, 0.2);
-  display: flex;
+  padding: 16px;
 }
 
 .icon {
@@ -70,26 +70,25 @@ button.cancel {
   color: royalblue;
 }
 
-/* SOLUTION: */
-
-.modal {
+.headings,
+.together {
   display: flex;
-  gap: 16px;
-  padding: 16px;
-}
-
-.icon {
-  flex-shrink: 0;
-}
-.header {
-  display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  gap: 16px;
+}
+
+.header {
+  font-weight: bold;
   font-size: 18px;
-  font-weight: 700;
-  margin-bottom: 8px;
 }
 
 .text {
-  margin-bottom: 16px;
+  display: flex;
+  margin: 0px 32px;
+}
+
+.footer {
+  display: flex;
+  justify-content: left;
 }
